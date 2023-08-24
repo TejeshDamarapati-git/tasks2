@@ -1,0 +1,17 @@
+18:17:36:216 [main] FATAL com.log4j.LoggingTest - This is Fatal
+18:23:26:547 [main] INFO  com.log4j.LoggingTest - Success
+18:23:26:550 [main] ERROR com.log4j.LoggingTest - ERROR CAUSED......
+18:23:26:550 [main] DEBUG com.log4j.LoggingTest - Debug it
+18:23:26:550 [main] FATAL com.log4j.LoggingTest - This is Fatal
+18:23:34:839 [main] INFO  com.log4j.LoggingTest - Success
+18:23:34:842 [main] ERROR com.log4j.LoggingTest - ERROR CAUSED......
+18:23:34:842 [main] DEBUG com.log4j.LoggingTest - Debug it
+18:23:34:843 [main] FATAL com.log4j.LoggingTest - This is Fatal
+18:23:58:326 [main] INFO  com.log4j.LoggingTest - Success
+18:23:58:328 [main] ERROR com.log4j.LoggingTest - ERROR CAUSED......
+18:23:58:329 [main] DEBUG com.log4j.LoggingTest - Debug it
+18:23:58:369 [main] FATAL com.log4j.LoggingTest - This is Fatal
+18:23:58:370 [main] INFO  com.log4j.LoggingTest - Success
+18:23:58:370 [main] ERROR com.log4j.LoggingTest - ERROR CAUSED......
+18:23:58:370 [main] DEBUG com.log4j.LoggingTest - Debug it
+18:23:58:370 [main] FATAL com.log4j.LoggingTest - This is Fatal

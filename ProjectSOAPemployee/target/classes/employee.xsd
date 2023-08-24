@@ -1,0 +1,54 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+	xmlns:tns="http://com.mayuratech.demo" 
+	targetNamespace="http://com.mayuratech.demo" 
+	elementFormDefault="qualified" >
+
+		<xs:complexType name="employeeInfo">
+			<xs:sequence>
+			<xs:element name="employeeid" type="xs:int" />
+			<xs:element name="name" type="xs:string"/>
+			<xs:element name="designation" type="xs:string" />
+			<xs:element name="address" type="xs:string" />
+			</xs:sequence>
+		</xs:complexType>
+	
+	<xs:complexType name="serviceStatus">
+			<xs:sequence>
+			<xs:element name="status" type="xs:string"/>
+			<xs:element name="messsage" type="xs:string"/>
+			</xs:sequence>
+		</xs:complexType> 
+		
+	<xs:element name="AddEmployeeRequest">
+		<xs:complexType>
+			<xs:sequence>
+			<xs:element name="employeeInfo" type="tns:employeeInfo"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	
+	<xs:element name="AddEmployeeResponse">
+		<xs:complexType>
+			<xs:sequence >
+			<xs:element name="serviceStatus" type="tns:serviceStatus"/>
+			<xs:element name="employeeInfo" type="tns:employeeInfo"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	
+	<xs:element name="GetEmployeebyIdRequest">
+		<xs:complexType>
+			<xs:sequence>
+			<xs:element name="employeeid" type="xs:int"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	
+	<xs:element name="GetEmployeeResponse">
+		<xs:complexType>
+			<xs:sequence >
+			<xs:element name="employeeInfo" type="tns:employeeInfo"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
